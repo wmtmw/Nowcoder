@@ -1,0 +1,5 @@
+2020-02-16 00:18:17.173  INFO 17048 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-16 00:18:17.749  INFO 17048 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-02-16 00:18:19.527  WARN 17048 --- [main] com.nowcoder.community.LoggerTest        : warn log
+2020-02-16 00:18:19.529 ERROR 17048 --- [main] com.nowcoder.community.LoggerTest        : error log
+2020-02-16 00:18:19.547  INFO 17048 --- [Thread-2] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
