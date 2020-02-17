@@ -1,0 +1,90 @@
+2020-02-17 14:59:51,705 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 9112 (started by mingw in E:\javawork\community)
+2020-02-17 14:59:51,707 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 14:59:57,836 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 14:59:58,311 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 14:59:58,891 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 9.35 seconds (JVM running for 12.191)
+2020-02-17 15:00:02,200 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:02:13,318 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 1612 (started by mingw in E:\javawork\community)
+2020-02-17 15:02:13,321 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:02:19,198 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:02:19,822 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:02:20,386 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 8.485 seconds (JVM running for 10.357)
+2020-02-17 15:02:51,129 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:04:16,672 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 11052 (started by mingw in E:\javawork\community)
+2020-02-17 15:04:16,679 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:04:21,628 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:04:22,116 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:04:22,540 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 7.295 seconds (JVM running for 9.111)
+2020-02-17 15:04:53,265 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:07:34,917 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 13524 (started by mingw in E:\javawork\community)
+2020-02-17 15:07:34,920 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:07:40,018 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:07:40,413 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:07:40,837 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 7.153 seconds (JVM running for 9.279)
+2020-02-17 15:07:42,645 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:09:06,206 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 7004 (started by mingw in E:\javawork\community)
+2020-02-17 15:09:06,209 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:09:11,908 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:09:12,342 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:09:12,792 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 8.335 seconds (JVM running for 10.4)
+2020-02-17 15:09:14,819 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:13:04,293 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 6284 (started by mingw in E:\javawork\community)
+2020-02-17 15:13:04,300 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:13:09,608 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:13:10,035 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:13:10,455 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 7.543 seconds (JVM running for 9.343)
+2020-02-17 15:13:41,263 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:23:17,693 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 10768 (started by mingw in E:\javawork\community)
+2020-02-17 15:23:17,704 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:23:22,985 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:23:23,393 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:23:23,860 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 7.571 seconds (JVM running for 9.35)
+2020-02-17 15:23:44,690 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:24:11,581 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 10092 (started by mingw in E:\javawork\community)
+2020-02-17 15:24:11,584 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:24:16,461 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:24:16,843 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:24:17,340 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 7.004 seconds (JVM running for 8.962)
+2020-02-17 15:24:38,084 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:26:40,601 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 5612 (started by mingw in E:\javawork\community)
+2020-02-17 15:26:40,607 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:26:45,796 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:26:46,191 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:26:46,625 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 7.338 seconds (JVM running for 9.168)
+2020-02-17 15:27:07,398 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:27:41,571 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 8232 (started by mingw in E:\javawork\community)
+2020-02-17 15:27:41,577 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:27:46,381 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:27:46,779 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:27:47,189 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 6.925 seconds (JVM running for 8.913)
+2020-02-17 15:28:07,999 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:32:53,417 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 8688 (started by mingw in E:\javawork\community)
+2020-02-17 15:32:53,420 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:32:58,734 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:32:59,158 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:32:59,619 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 7.846 seconds (JVM running for 9.919)
+2020-02-17 15:33:03,211 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:34:56,801 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 6392 (started by mingw in E:\javawork\community)
+2020-02-17 15:34:56,812 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:35:01,994 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:35:02,769 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:35:03,620 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 8.525 seconds (JVM running for 10.561)
+2020-02-17 15:35:07,321 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:36:16,315 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 7596 (started by mingw in E:\javawork\community)
+2020-02-17 15:36:16,318 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:36:21,264 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:36:21,651 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:36:22,080 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 7.002 seconds (JVM running for 8.729)
+2020-02-17 15:36:25,345 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:52:29,186 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 816 (started by mingw in E:\javawork\community)
+2020-02-17 15:52:29,194 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:52:38,461 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:52:40,033 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:52:41,199 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 13.848 seconds (JVM running for 16.796)
+2020-02-17 15:52:44,889 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:54:05,694 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:50] Starting MailTests on DESKTOP-QISM9DG with PID 10620 (started by mingw in E:\javawork\community)
+2020-02-17 15:54:05,699 INFO [main] c.n.c.MailTests [SpringApplication.java:646] No active profile set, falling back to default profiles: default
+2020-02-17 15:54:10,732 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2020-02-17 15:54:11,096 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
+2020-02-17 15:54:11,530 INFO [main] c.n.c.MailTests [StartupInfoLogger.java:59] Started MailTests in 7.133 seconds (JVM running for 8.971)
+2020-02-17 15:54:16,867 INFO [Thread-2] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:208] Shutting down ExecutorService 'applicationTaskExecutor'
