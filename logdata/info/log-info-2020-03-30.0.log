@@ -1,0 +1,145 @@
+2020-03-30 09:26:45,598 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:677] [Consumer clientId=consumer-16, groupId=test-consumer-group] Discovered group coordinator DESKTOP-QISM9DG:9092 (id: 2147483647 rack: null)
+2020-03-30 09:26:45,598 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:677] [Consumer clientId=consumer-18, groupId=test-consumer-group] Discovered group coordinator DESKTOP-QISM9DG:9092 (id: 2147483647 rack: null)
+2020-03-30 09:26:45,598 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:677] [Consumer clientId=consumer-14, groupId=test-consumer-group] Discovered group coordinator DESKTOP-QISM9DG:9092 (id: 2147483647 rack: null)
+2020-03-30 09:26:52,263 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-14, groupId=test-consumer-group] Revoking previously assigned partitions [delete-0]
+2020-03-30 09:26:52,263 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:391] partitions revoked: [delete-0]
+2020-03-30 09:26:52,263 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-18, groupId=test-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+2020-03-30 09:26:52,535 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:391] partitions revoked: [comment-0, like-0, follow-0]
+2020-03-30 09:26:52,704 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-16, groupId=test-consumer-group] Revoking previously assigned partitions [publish-0]
+2020-03-30 09:26:52,704 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:391] partitions revoked: [publish-0]
+2020-03-30 09:26:52,704 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-16, groupId=test-consumer-group] (Re-)joining group
+2020-03-30 09:26:52,705 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-18, groupId=test-consumer-group] (Re-)joining group
+2020-03-30 09:26:52,706 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-14, groupId=test-consumer-group] (Re-)joining group
+2020-03-30 09:26:57,752 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:729] [Consumer clientId=consumer-14, groupId=test-consumer-group] Group coordinator DESKTOP-QISM9DG:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-03-30 09:26:57,753 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.FetchSessionHandler [FetchSessionHandler.java:440] [Consumer clientId=consumer-18, groupId=test-consumer-group] Error sending fetch request (sessionId=938145566, epoch=INITIAL) to node 0: org.apache.kafka.common.errors.DisconnectException.
+2020-03-30 09:26:57,753 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:729] [Consumer clientId=consumer-16, groupId=test-consumer-group] Group coordinator DESKTOP-QISM9DG:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-03-30 09:26:57,753 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:729] [Consumer clientId=consumer-18, groupId=test-consumer-group] Group coordinator DESKTOP-QISM9DG:9092 (id: 2147483647 rack: null) is unavailable or invalid, will attempt rediscovery
+2020-03-30 09:26:57,854 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.FetchSessionHandler [FetchSessionHandler.java:440] [Consumer clientId=consumer-14, groupId=test-consumer-group] Error sending fetch request (sessionId=1251735947, epoch=INITIAL) to node 0: org.apache.kafka.common.errors.DisconnectException.
+2020-03-30 09:26:57,854 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.FetchSessionHandler [FetchSessionHandler.java:440] [Consumer clientId=consumer-16, groupId=test-consumer-group] Error sending fetch request (sessionId=1340213187, epoch=INITIAL) to node 0: org.apache.kafka.common.errors.DisconnectException.
+2020-03-30 09:27:28,263 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 09:32:27,913 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 09:37:27,939 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 09:42:27,915 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 09:47:28,002 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 09:52:27,981 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 09:53:56,621 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:53:56],访问了[COM.NOWCODER.COMMUNITY.SERVICE.DATASERVICE.RECORDUV].
+2020-03-30 09:53:59,173 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:53:59],访问了[COM.NOWCODER.COMMUNITY.SERVICE.DISCUSSPOSTSERVICE.FINDDISCUSSPOSTSROWS].
+2020-03-30 09:54:00,199 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:00],访问了[COM.NOWCODER.COMMUNITY.SERVICE.DISCUSSPOSTSERVICE.FINDDISCUSSPOSTS].
+2020-03-30 09:54:00,393 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:00],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:00,879 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:00],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:00,883 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:00],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:00,921 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:00],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:00,922 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:00],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:01,119 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:01,141 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:01,143 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:01,145 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:01,146 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:01,148 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:01,176 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:01,177 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:01,179 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:01,180 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:01,182 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:01,183 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:01,189 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:01,191 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.USERSERVICE.FINDUSERBYID].
+2020-03-30 09:54:01,197 INFO [http-nio-8080-exec-6] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.LIKESERVICE.FINDENTITYLIKECOUNT].
+2020-03-30 09:54:01,663 INFO [http-nio-8080-exec-2] c.n.c.a.ServiceLogAspect [ServiceLogAspect.java:38] 用户[127.0.0.1],在[2020-03-30 09:54:01],访问了[COM.NOWCODER.COMMUNITY.SERVICE.DATASERVICE.RECORDUV].
+2020-03-30 09:57:28,007 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:02:28,036 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:07:27,961 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:12:27,927 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:17:28,010 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:22:27,986 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:27:27,933 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:32:28,043 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:37:27,933 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:42:28,077 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:47:27,988 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:52:27,899 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 10:57:27,943 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:02:27,990 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:07:28,277 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:12:27,924 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:17:27,988 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:22:27,965 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:27:27,955 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:32:27,921 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:37:28,011 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:42:27,952 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:47:27,947 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:52:27,978 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 11:57:28,044 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 12:02:27,988 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 12:07:27,933 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 12:12:27,966 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 12:17:27,990 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 12:22:28,190 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 12:27:27,933 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 12:32:28,012 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 12:37:27,902 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 12:42:27,912 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:07:37,666 INFO [QuartzScheduler_communityScheduler-DESKTOP-QISM9DG1585316335168_MisfireHandler] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:973] Handling 1 trigger(s) that missed their scheduled fire-time.
+2020-03-30 15:12:28,142 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:17:27,964 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:22:27,934 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:27:27,934 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:32:27,934 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:37:27,934 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:42:27,933 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:47:28,000 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:52:27,939 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 15:57:28,025 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 16:02:27,914 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 16:07:27,957 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 16:12:27,978 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 19:59:49,434 INFO [QuartzScheduler_communityScheduler-DESKTOP-QISM9DG1585316335168_MisfireHandler] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:973] Handling 1 trigger(s) that missed their scheduled fire-time.
+2020-03-30 20:02:27,963 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:07:27,967 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:12:28,000 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:17:27,934 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:22:27,966 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:27:28,225 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:32:27,954 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:37:27,961 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:42:28,252 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:47:27,919 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:52:27,897 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 20:57:27,964 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:02:27,910 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:07:27,964 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:12:27,944 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:17:27,933 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:22:27,923 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:27:27,962 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:32:27,941 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:37:27,933 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:42:27,882 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:47:27,888 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:52:27,910 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 21:57:27,933 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:02:27,978 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:07:27,979 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:12:27,944 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:17:28,000 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:22:27,954 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:27:27,977 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:32:27,977 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:37:27,922 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:42:27,944 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:47:27,922 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:52:27,978 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 22:57:27,935 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:02:27,989 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:07:28,155 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:12:28,033 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:17:28,468 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:22:27,893 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:27:28,001 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:32:28,046 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:37:27,956 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:42:28,022 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:47:28,038 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:52:27,989 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-03-30 23:57:27,976 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！

@@ -1,0 +1,1 @@
+2020-04-04 23:02:02,469 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:843] [Consumer clientId=consumer-6, groupId=test-consumer-group] Offset commit failed on partition test-0 at offset 0: The coordinator is not aware of this member.

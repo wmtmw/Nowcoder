@@ -1,0 +1,2 @@
+2020-04-05 03:46:44,691 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:843] [Consumer clientId=consumer-2, groupId=test-consumer-group] Offset commit failed on partition comment-0 at offset 0: The coordinator is not aware of this member.
+2020-04-05 11:11:31,424 ERROR [http-nio-8080-exec-99] c.n.c.c.LoginController [LoginController.java:121] 响应验证码失败java.io.IOException: 你的主机中的软件中止了一个已建立的连接。

@@ -1,0 +1,18 @@
+2020-03-30 09:26:49,533 ERROR [QuartzScheduler_communityScheduler-DESKTOP-QISM9DG1585316335168_ClusterManager] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:3941] ClusterManager: Error managing cluster: Failed to obtain DB connection from data source 'springNonTxDataSource.communityScheduler': java.sql.SQLTransientConnectionException: HikariPool-3 - Connection is not available, request timed out after 73584ms.
+org.quartz.JobPersistenceException: Failed to obtain DB connection from data source 'springNonTxDataSource.communityScheduler': java.sql.SQLTransientConnectionException: HikariPool-3 - Connection is not available, request timed out after 73584ms.
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:168)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-3 - Connection is not available, request timed out after 73584ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:676)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:190)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:155)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.scheduling.quartz.LocalDataSourceJobStore$2.getConnection(LocalDataSourceJobStore.java:134)
+	at org.quartz.utils.DBConnectionManager.getConnection(DBConnectionManager.java:108)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:165)
+	... 3 common frames omitted
+2020-03-30 09:26:50,696 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:843] [Consumer clientId=consumer-18, groupId=test-consumer-group] Offset commit failed on partition comment-0 at offset 8: The coordinator is not aware of this member.
+2020-03-30 09:26:50,696 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:843] [Consumer clientId=consumer-14, groupId=test-consumer-group] Offset commit failed on partition delete-0 at offset 3: The coordinator is not aware of this member.
+2020-03-30 09:26:50,696 ERROR [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:843] [Consumer clientId=consumer-16, groupId=test-consumer-group] Offset commit failed on partition publish-0 at offset 22: The coordinator is not aware of this member.

@@ -1,231 +1,163 @@
-2020-02-18 00:14:00,309 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 964 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 00:14:00,347 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 00:14:00,433 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 00:14:00,433 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 00:14:03,606 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 00:14:03,648 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 00:14:03,670 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 00:14:03,671 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 00:14:03,828 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 00:14:03,829 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 3394 ms
-2020-02-18 00:14:04,482 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 00:14:04,695 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 00:14:04,882 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 00:14:04,943 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 00:14:04,971 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 00:14:04,976 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 5.489 seconds (JVM running for 6.957)
-2020-02-18 00:14:05,159 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 00:14:05,160 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 00:14:05,170 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 9 ms
-2020-02-18 00:14:05,248 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 00:14:05,502 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 00:15:01,975 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 7660 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 00:15:01,982 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 00:15:02,081 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 00:15:02,084 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 00:15:04,249 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 00:15:04,267 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 00:15:04,280 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 00:15:04,281 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 00:15:04,388 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 00:15:04,388 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2303 ms
-2020-02-18 00:15:05,170 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 00:15:05,282 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 00:15:05,409 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 00:15:05,445 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 00:15:05,470 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 00:15:05,474 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.262 seconds (JVM running for 5.822)
-2020-02-18 00:15:09,476 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 00:15:09,477 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 00:15:09,489 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 12 ms
-2020-02-18 00:15:19,353 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 00:15:19,502 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 00:16:17,990 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 15328 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 00:16:17,995 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 00:16:18,081 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 00:16:18,081 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 00:16:20,162 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 00:16:20,203 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 00:16:20,223 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 00:16:20,224 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 00:16:20,340 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 00:16:20,341 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2259 ms
-2020-02-18 00:16:21,204 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 00:16:21,408 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 00:16:21,607 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 00:16:21,649 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 00:16:21,677 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 00:16:21,684 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.521 seconds (JVM running for 6.3)
-2020-02-18 00:16:21,997 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 00:16:21,998 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 00:16:22,008 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 9 ms
-2020-02-18 00:16:44,928 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 00:16:45,071 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 16:54:58,508 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 1552 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 16:54:58,520 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 16:54:58,844 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 16:54:58,844 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 16:55:01,498 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 16:55:01,527 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 16:55:01,558 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 16:55:01,558 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 16:55:01,761 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 16:55:01,762 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2916 ms
-2020-02-18 16:55:02,889 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 16:55:03,001 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 16:55:03,263 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 16:55:03,333 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 16:55:03,378 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 16:55:03,391 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 7.171 seconds (JVM running for 10.921)
-2020-02-18 16:55:16,454 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 16:55:16,455 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 16:55:16,472 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 17 ms
-2020-02-18 16:55:16,620 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 16:55:17,414 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 16:58:15,725 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 10516 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 16:58:15,738 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 16:58:15,841 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 16:58:15,841 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 16:58:17,892 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 16:58:17,926 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 16:58:17,949 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 16:58:17,950 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 16:58:18,051 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 16:58:18,051 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2209 ms
-2020-02-18 16:58:18,628 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 16:58:18,747 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 16:58:18,886 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 16:58:18,918 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 16:58:18,942 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 16:58:18,946 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.208 seconds (JVM running for 5.866)
-2020-02-18 16:58:30,542 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 16:58:30,543 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 16:58:30,555 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 12 ms
-2020-02-18 16:58:30,624 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 16:58:30,757 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 17:01:20,852 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 11132 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 17:01:20,857 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 17:01:20,915 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 17:01:20,927 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 17:01:22,860 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 17:01:22,895 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:01:22,916 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 17:01:22,919 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 17:01:23,042 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 17:01:23,043 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2115 ms
-2020-02-18 17:01:23,608 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 17:01:23,711 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 17:01:23,837 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 17:01:23,869 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:01:23,915 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 17:01:23,920 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.787 seconds (JVM running for 5.687)
-2020-02-18 17:01:26,815 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 17:01:26,816 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 17:01:26,828 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 11 ms
-2020-02-18 17:01:26,927 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 17:01:27,130 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 17:02:25,040 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 6588 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 17:02:25,045 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 17:02:25,113 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 17:02:25,114 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 17:02:27,210 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 17:02:27,256 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:02:27,289 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 17:02:27,290 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 17:02:27,465 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 17:02:27,466 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2350 ms
-2020-02-18 17:02:28,476 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 17:02:28,614 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 17:02:28,737 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 17:02:28,768 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:02:28,798 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 17:02:28,821 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.424 seconds (JVM running for 5.999)
-2020-02-18 17:02:32,348 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 17:02:32,349 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 17:02:32,360 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 10 ms
-2020-02-18 17:02:35,175 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 17:02:35,302 INFO [http-nio-8080-exec-6] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 17:04:33,792 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 6412 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 17:04:33,799 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 17:04:33,884 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 17:04:33,885 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 17:04:36,054 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 17:04:36,092 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:04:36,118 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 17:04:36,119 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 17:04:36,225 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 17:04:36,225 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2339 ms
-2020-02-18 17:04:36,895 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 17:04:37,027 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 17:04:37,236 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 17:04:37,299 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:04:37,346 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 17:04:37,353 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.289 seconds (JVM running for 6.38)
-2020-02-18 17:04:37,508 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 17:04:37,510 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 17:04:37,519 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 9 ms
-2020-02-18 17:04:37,587 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 17:04:37,723 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 17:05:23,511 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 1516 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 17:05:23,516 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 17:05:23,586 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 17:05:23,587 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 17:05:25,634 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 17:05:25,658 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:05:25,671 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 17:05:25,672 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 17:05:25,772 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 17:05:25,772 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2185 ms
-2020-02-18 17:05:26,347 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 17:05:26,462 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 17:05:26,619 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 17:05:26,654 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:05:26,682 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 17:05:26,687 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 3.962 seconds (JVM running for 6.085)
-2020-02-18 17:05:26,860 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 17:05:26,862 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 17:05:26,872 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 10 ms
-2020-02-18 17:05:52,051 INFO [http-nio-8080-exec-5] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 17:05:52,208 INFO [http-nio-8080-exec-5] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 17:10:41,054 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 868 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 17:10:41,064 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 17:10:41,137 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 17:10:41,138 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 17:10:43,584 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 17:10:43,637 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:10:43,664 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 17:10:43,670 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 17:10:43,790 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 17:10:43,791 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2649 ms
-2020-02-18 17:10:44,640 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 17:10:44,784 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 17:10:44,930 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 17:10:44,966 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:10:44,994 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 17:10:44,999 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.712 seconds (JVM running for 6.262)
-2020-02-18 17:10:46,906 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 17:10:46,908 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 17:10:46,922 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 13 ms
-2020-02-18 17:10:46,993 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 17:10:47,137 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
-2020-02-18 17:18:35,727 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-QISM9DG with PID 5112 (E:\javawork\community\target\classes started by mingw in E:\javawork\community)
-2020-02-18 17:18:35,732 INFO [restartedMain] c.n.c.CommunityApplication [SpringApplication.java:646] No active profile set, falling back to default profiles: default
-2020-02-18 17:18:35,833 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2020-02-18 17:18:35,833 INFO [restartedMain] o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [DeferredLog.java:225] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2020-02-18 17:18:38,099 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
-2020-02-18 17:18:38,116 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:18:38,130 INFO [restartedMain] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
-2020-02-18 17:18:38,131 INFO [restartedMain] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.21]
-2020-02-18 17:18:38,233 INFO [restartedMain] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
-2020-02-18 17:18:38,234 INFO [restartedMain] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:283] Root WebApplicationContext: initialization completed in 2401 ms
-2020-02-18 17:18:38,821 INFO [restartedMain] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
-2020-02-18 17:18:38,936 INFO [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:58] Adding welcome page template: index
-2020-02-18 17:18:39,061 INFO [restartedMain] o.s.b.d.a.OptionalLiveReloadServer [OptionalLiveReloadServer.java:57] LiveReload server is running on port 35729
-2020-02-18 17:18:39,094 INFO [restartedMain] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
-2020-02-18 17:18:39,147 INFO [restartedMain] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:202] Tomcat started on port(s): 8080 (http) with context path '/community'
-2020-02-18 17:18:39,154 INFO [restartedMain] c.n.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 4.273 seconds (JVM running for 5.759)
-2020-02-18 17:18:39,202 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
-2020-02-18 17:18:39,203 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
-2020-02-18 17:18:39,217 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 13 ms
-2020-02-18 17:18:39,307 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
-2020-02-18 17:18:39,474 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2020-04-07 00:02:27,955 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 09:17:17,209 INFO [QuartzScheduler_communityScheduler-DESKTOP-QISM9DG1586058146005_MisfireHandler] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:973] Handling 1 trigger(s) that missed their scheduled fire-time.
+2020-04-07 09:17:28,151 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 09:22:27,967 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 09:27:27,921 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 09:32:27,996 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 09:37:28,038 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 09:42:27,956 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 09:47:27,947 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 09:52:27,971 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 09:57:27,957 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:02:28,080 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:07:27,972 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:12:27,951 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:17:27,929 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:22:27,931 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:27:27,973 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:32:27,998 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:37:28,026 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:42:27,934 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:47:28,058 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:52:27,930 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 10:57:27,949 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:02:28,003 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:07:27,951 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:12:27,968 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:17:27,942 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:22:27,931 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:27:28,144 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:32:27,951 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:37:27,976 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:42:27,939 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:47:28,023 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:52:27,993 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 11:57:27,902 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:02:27,905 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:07:27,972 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:12:27,996 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:17:28,055 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:22:27,952 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:27:28,000 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:32:27,944 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:37:27,946 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:42:27,944 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:47:28,123 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:52:28,154 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 12:57:28,021 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 13:02:28,030 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 13:07:27,955 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 13:12:27,954 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 13:17:27,966 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 13:22:27,976 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 13:27:28,002 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 13:32:28,175 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 13:37:27,978 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 14:55:43,176 INFO [QuartzScheduler_communityScheduler-DESKTOP-QISM9DG1586058146005_MisfireHandler] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:973] Handling 1 trigger(s) that missed their scheduled fire-time.
+2020-04-07 14:57:27,962 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:02:27,945 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:07:27,969 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:12:28,007 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:17:27,948 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:22:27,922 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:27:27,899 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:32:28,873 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:37:28,611 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:42:27,967 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:47:27,914 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:52:27,981 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 15:57:28,023 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:02:28,227 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:07:27,893 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:12:27,949 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:17:27,967 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:22:27,952 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:27:27,959 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:32:28,054 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:37:27,995 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:42:27,941 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:47:27,966 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:52:27,952 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 16:57:27,974 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:02:28,155 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:07:27,973 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:12:27,977 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:17:27,967 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:22:27,958 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:27:28,125 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:32:28,291 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:37:27,923 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:42:28,066 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:47:27,938 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:52:27,990 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 17:57:28,022 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:02:27,918 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:07:27,949 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:12:27,937 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:17:27,913 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:22:27,975 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:27:27,939 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:32:28,064 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:37:27,922 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:42:27,934 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:47:27,945 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:52:27,926 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 18:57:27,967 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:02:27,969 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:07:27,971 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:12:27,934 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:17:27,942 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:22:27,964 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:27:27,979 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:32:27,889 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:37:27,925 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:42:27,946 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:47:27,980 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:52:27,959 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 19:57:27,948 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:02:27,987 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:07:27,920 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:12:27,940 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:17:27,943 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:22:28,001 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:27:28,209 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:32:27,953 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:37:27,947 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:42:28,128 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:47:27,938 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:52:27,973 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 20:57:27,941 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:02:27,917 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:07:27,954 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:12:27,943 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:17:27,988 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:22:27,969 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:27:27,991 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:32:27,959 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:37:27,949 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:42:28,009 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:47:28,091 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:52:28,083 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 21:57:27,946 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:02:37,690 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:07:28,005 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:12:27,930 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:17:27,975 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:22:28,144 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:27:28,028 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:32:27,907 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:37:28,023 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:42:27,952 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:47:27,982 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:52:27,923 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 22:57:27,965 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:02:27,914 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:07:27,965 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:12:27,932 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:17:27,956 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:22:27,943 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:27:28,012 INFO [communityScheduler_Worker-2] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:32:27,969 INFO [communityScheduler_Worker-3] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:37:27,987 INFO [communityScheduler_Worker-4] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:42:27,917 INFO [communityScheduler_Worker-5] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！
+2020-04-07 23:47:27,905 INFO [communityScheduler_Worker-1] c.n.c.q.PostScoreRefreshJob [PostScoreRefreshJob.java:51] [任务取消] 没有需要刷新的帖子！

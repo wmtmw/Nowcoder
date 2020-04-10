@@ -1,0 +1,234 @@
+2020-04-03 20:31:23,401 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:25,517 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:27,623 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:29,942 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:32,354 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:35,165 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:38,075 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:41,285 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:44,498 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:47,710 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:50,718 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:53,827 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:31:56,941 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:32:00,152 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:32:03,367 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:32:06,377 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:32:09,389 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:32:12,197 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:32:15,104 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:32:18,014 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:32:20,924 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:32:21,427 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.errors.TimeoutException: Timeout expired while fetching topic metadata
+2020-04-03 20:33:59,214 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:33:59,217 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:33:59,309 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:00,567 WARN [RMI TCP Connection(1)-192.168.126.1] o.s.b.a.e.ElasticsearchHealthIndicator [AbstractHealthIndicator.java:87] Elasticsearch health check failed
+org.elasticsearch.client.transport.NoNodeAvailableException: None of the configured nodes are available: [{#transport#-1}{6JCygbKWTySH3SpaeTk1nA}{127.0.0.1}{127.0.0.1:9300}]
+	at org.elasticsearch.client.transport.TransportClientNodesService.ensureNodesAreAvailable(TransportClientNodesService.java:349)
+	at org.elasticsearch.client.transport.TransportClientNodesService.execute(TransportClientNodesService.java:247)
+	at org.elasticsearch.client.transport.TransportProxyClient.execute(TransportProxyClient.java:60)
+	at org.elasticsearch.client.transport.TransportClient.doExecute(TransportClient.java:381)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:407)
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:396)
+	at org.elasticsearch.client.support.AbstractClient$ClusterAdmin.execute(AbstractClient.java:708)
+	at org.elasticsearch.client.support.AbstractClient$ClusterAdmin.health(AbstractClient.java:730)
+	at org.springframework.boot.actuate.elasticsearch.ElasticsearchHealthIndicator.doHealthCheck(ElasticsearchHealthIndicator.java:76)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:95)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:76)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020-04-03 20:34:01,315 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:01,363 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:01,419 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:02,694 WARN [RMI TCP Connection(1)-192.168.126.1] o.s.b.a.e.ElasticsearchRestHealthIndicator [AbstractHealthIndicator.java:87] Elasticsearch health check failed
+java.net.ConnectException: Timeout connecting to [localhost/127.0.0.1:9200]
+	at org.elasticsearch.client.RestClient$SyncResponseListener.get(RestClient.java:943)
+	at org.elasticsearch.client.RestClient.performRequest(RestClient.java:227)
+	at org.springframework.boot.actuate.elasticsearch.ElasticsearchRestHealthIndicator.doHealthCheck(ElasticsearchRestHealthIndicator.java:60)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:95)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:76)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.ConnectException: Timeout connecting to [localhost/127.0.0.1:9200]
+	at org.apache.http.nio.pool.RouteSpecificPool.timeout(RouteSpecificPool.java:169)
+	at org.apache.http.nio.pool.AbstractNIOConnPool.requestTimeout(AbstractNIOConnPool.java:628)
+	at org.apache.http.nio.pool.AbstractNIOConnPool$InternalSessionRequestCallback.timeout(AbstractNIOConnPool.java:894)
+	at org.apache.http.impl.nio.reactor.SessionRequestImpl.timeout(SessionRequestImpl.java:183)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processTimeouts(DefaultConnectingIOReactor.java:210)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:155)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:351)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:221)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:64)
+	... 1 common frames omitted
+2020-04-03 20:34:03,570 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:03,572 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:03,629 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:05,934 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:05,976 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:06,040 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:08,796 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:08,937 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:09,001 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:11,851 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:11,865 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:12,010 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:14,775 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:14,869 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:14,963 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:17,989 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:18,024 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:18,033 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:20,952 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:21,038 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:21,045 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:23,908 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:24,064 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:24,070 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:26,777 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:27,138 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:27,183 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:29,942 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:30,247 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:30,254 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:32,953 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:33,158 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:33,163 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:35,915 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:36,225 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:36,278 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:38,784 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:39,202 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:39,355 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:41,653 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-6, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:42,301 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-4, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:34:42,581 WARN [org.springframework.kafka.KafkaListenerEndpointContainer#2-0-C-1] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-2, groupId=test-consumer-group] Connection to node 0 could not be established. Broker may not be available.
+2020-04-03 20:35:22,817 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:24,926 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:27,415 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:29,628 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:32,137 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:35,147 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:38,163 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:41,284 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:44,446 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:47,671 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:50,884 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:53,793 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:56,801 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:35:59,827 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:36:03,051 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:36:05,960 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:36:08,869 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:36:11,880 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:36:14,917 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:36:17,827 WARN [restartedMain] o.a.k.c.NetworkClient [NetworkClient.java:671] [Consumer clientId=consumer-1, groupId=test-consumer-group] Connection to node -1 could not be established. Broker may not be available.
+2020-04-03 20:36:20,795 WARN [restartedMain] o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [AbstractApplicationContext.java:557] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.errors.TimeoutException: Timeout expired while fetching topic metadata
+2020-04-03 20:37:43,215 WARN [RMI TCP Connection(2)-192.168.126.1] o.s.b.a.e.ElasticsearchHealthIndicator [AbstractHealthIndicator.java:87] Elasticsearch health check failed
+org.elasticsearch.ElasticsearchTimeoutException: java.util.concurrent.TimeoutException: Timeout waiting for task.
+	at org.elasticsearch.common.util.concurrent.FutureUtils.get(FutureUtils.java:72)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:54)
+	at org.elasticsearch.action.support.AdapterActionFuture.actionGet(AdapterActionFuture.java:44)
+	at org.springframework.boot.actuate.elasticsearch.ElasticsearchHealthIndicator.doHealthCheck(ElasticsearchHealthIndicator.java:76)
+	at org.springframework.boot.actuate.health.AbstractHealthIndicator.health(AbstractHealthIndicator.java:82)
+	at org.springframework.boot.actuate.health.CompositeHealthIndicator.health(CompositeHealthIndicator.java:95)
+	at org.springframework.boot.actuate.health.HealthEndpoint.health(HealthEndpoint.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.springframework.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:282)
+	at org.springframework.boot.actuate.endpoint.invoke.reflect.ReflectiveOperationInvoker.invoke(ReflectiveOperationInvoker.java:76)
+	at org.springframework.boot.actuate.endpoint.annotation.AbstractDiscoveredOperation.invoke(AbstractDiscoveredOperation.java:60)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:121)
+	at org.springframework.boot.actuate.endpoint.jmx.EndpointMBean.invoke(EndpointMBean.java:96)
+	at java.management/com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809)
+	at java.management/com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399)
+	at java.management.rmi/javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827)
+	at java.base/jdk.internal.reflect.GeneratedMethodAccessor64.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.rmi/sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at java.rmi/sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at java.rmi/sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.util.concurrent.TimeoutException: Timeout waiting for task.
+	at org.elasticsearch.common.util.concurrent.BaseFuture$Sync.get(BaseFuture.java:235)
+	at org.elasticsearch.common.util.concurrent.BaseFuture.get(BaseFuture.java:69)
+	at org.elasticsearch.common.util.concurrent.FutureUtils.get(FutureUtils.java:70)
+	... 37 common frames omitted
+2020-04-03 20:40:21,404 WARN [http-nio-8080-exec-9] o.a.c.u.SessionIdGeneratorBase [DirectJDKLog.java:173] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [361] milliseconds.

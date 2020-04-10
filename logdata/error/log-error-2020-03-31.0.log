@@ -1,0 +1,15 @@
+2020-03-31 09:43:49,546 ERROR [QuartzScheduler_communityScheduler-DESKTOP-QISM9DG1585316335168_ClusterManager] o.s.s.q.LocalDataSourceJobStore [JobStoreSupport.java:3941] ClusterManager: Error managing cluster: Failed to obtain DB connection from data source 'springNonTxDataSource.communityScheduler': java.sql.SQLTransientConnectionException: HikariPool-3 - Connection is not available, request timed out after 23324588ms.
+org.quartz.JobPersistenceException: Failed to obtain DB connection from data source 'springNonTxDataSource.communityScheduler': java.sql.SQLTransientConnectionException: HikariPool-3 - Connection is not available, request timed out after 23324588ms.
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:168)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.doCheckin(JobStoreSupport.java:3322)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.manage(JobStoreSupport.java:3935)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$ClusterManager.run(JobStoreSupport.java:3972)
+Caused by: java.sql.SQLTransientConnectionException: HikariPool-3 - Connection is not available, request timed out after 23324588ms.
+	at com.zaxxer.hikari.pool.HikariPool.createTimeoutException(HikariPool.java:676)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:190)
+	at com.zaxxer.hikari.pool.HikariPool.getConnection(HikariPool.java:155)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:128)
+	at org.springframework.scheduling.quartz.LocalDataSourceJobStore$2.getConnection(LocalDataSourceJobStore.java:134)
+	at org.quartz.utils.DBConnectionManager.getConnection(DBConnectionManager.java:108)
+	at org.quartz.impl.jdbcjobstore.JobStoreCMT.getNonManagedTXConnection(JobStoreCMT.java:165)
+	... 3 common frames omitted

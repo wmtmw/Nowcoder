@@ -1,16 +1,33 @@
 package com.nowcoder.community.entity;
 
-import java.util.Date;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.elasticsearch.annotations.Document;
+import org.springframework.data.elasticsearch.annotations.Field;
+import org.springframework.data.elasticsearch.annotations.FieldType;
 
+import java.util.Date;
+//数据库中的表和es中的索引的对应关系，创建多少个分片，多少个副本
+@Document(indexName = "discusspost",type = "_doc",shards = 6,replicas = 3)
 public class DiscussPost {
+    @Id
     private int id;
+    @Field(type = FieldType.Integer)
     private int userId;
+//   存储分词器 analyzer:存储的时候使用什么解析器，比如下面使用的这个，将title拆分出最多的单词，与这句话去建立索引，匹配，增加搜索范围
+//    搜索分词器：使用聪明的分词器
+    @Field(type = FieldType.Text,analyzer = "ik_max_word",searchAnalyzer = "ik_smart")
     private String title;
+    @Field(type = FieldType.Text,analyzer = "ik_max_word",searchAnalyzer = "ik_smart")
     private String content;
+    @Field(type = FieldType.Integer)
     private int type;
+    @Field(type = FieldType.Integer)
     private int status;
+    @Field(type = FieldType.Date)
     private Date createTime;
+    @Field(type = FieldType.Integer)
     private int commentCount;
+    @Field(type = FieldType.Double)
     private double score;
 
     public int getId() {
